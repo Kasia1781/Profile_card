@@ -1,0 +1,53 @@
+@use './colors' as c;
+
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: c.$dark-cyan;
+}
+
+.card {
+    width: 330px;
+    height: 375px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+
+    &__bcg {
+        overflow: hidden;
+        border-radius: 10px;
+    }
+
+    &__img {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        bottom: 50px;
+        
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 5px solid white;
+        }
+    }
+
+    
+}
