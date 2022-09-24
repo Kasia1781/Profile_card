@@ -80,24 +80,18 @@ body {
   justify-content: space-evenly;
   margin-top: 20px;
 }
+.card__box > * {
+  text-align: center;
+}
 .card__followers-number {
   font-size: 2rem;
   font-weight: 700;
 }
 
 .media {
-  position: relative;
   padding-top: 5px;
   letter-spacing: 2px;
   color: hsl(0deg, 0%, 59%);
-}
-
-.followers {
-  right: 7px;
-}
-
-.likes {
-  left: 10px;
 }
 
 hr {

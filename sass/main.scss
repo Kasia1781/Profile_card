@@ -91,6 +91,10 @@ body {
 		display: flex;
 		justify-content: space-evenly;
 		margin-top: 20px;
+
+		& > * {
+			text-align: center;
+		}
 	}
 
 	&__followers-number {
@@ -100,17 +104,17 @@ body {
 }
 
 .media {
-	position: relative;
+	// position: relative;
 	padding-top: 5px;
 	letter-spacing: 2px;
 	color: c.$dark-gray;
 }
-.followers {
-	right: 7px;
-}
-.likes {
-	left: 10px;
-}
+// .followers {
+// 	right: 7px;
+// }
+// .likes {
+// 	left: 10px;
+// }
 
 hr {
 	border-color: white;
